@@ -41,7 +41,6 @@ def predict(matrix_x, coefficients_vec_w):
     :return: the prediction rule vector i.e y_hat = Xw
     """
     prediction = np.dot(matrix_x, coefficients_vec_w)
-    j = 13
     return prediction
 
 
